@@ -49,12 +49,12 @@ cmake_ninja_workdir = /Users/uzi/Desktop/comp$ 371/project/Comp$ 371$ A2/cmake-b
 
 build cmake_object_order_depends_target_assignment2: phony || CMakeFiles/assignment2.dir
 
-build CMakeFiles/assignment2.dir/main.cpp.o: CXX_COMPILER__assignment2_unscanned_Debug /Users/uzi/Desktop/comp$ 371/project/Comp$ 371$ A2/main.cpp || cmake_object_order_depends_target_assignment2
-  DEP_FILE = CMakeFiles/assignment2.dir/main.cpp.o.d
+build CMakeFiles/assignment2.dir/A3/main.cpp.o: CXX_COMPILER__assignment2_unscanned_Debug /Users/uzi/Desktop/comp$ 371/project/Comp$ 371$ A2/A3/main.cpp || cmake_object_order_depends_target_assignment2
+  DEP_FILE = CMakeFiles/assignment2.dir/A3/main.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks
   INCLUDES = -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks
   OBJECT_DIR = CMakeFiles/assignment2.dir
-  OBJECT_FILE_DIR = CMakeFiles/assignment2.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment2.dir/A3
 
 
 # =============================================================================
@@ -64,7 +64,7 @@ build CMakeFiles/assignment2.dir/main.cpp.o: CXX_COMPILER__assignment2_unscanned
 #############################################
 # Link the executable assignment2
 
-build assignment2: CXX_EXECUTABLE_LINKER__assignment2_Debug CMakeFiles/assignment2.dir/main.cpp.o | /opt/homebrew/lib/libglfw.3.4.dylib /opt/homebrew/lib/libGLEW.2.2.0.dylib /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /opt/homebrew/lib/libglm.dylib
+build assignment2: CXX_EXECUTABLE_LINKER__assignment2_Debug CMakeFiles/assignment2.dir/A3/main.cpp.o | /opt/homebrew/lib/libglfw.3.4.dylib /opt/homebrew/lib/libGLEW.2.2.0.dylib /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /opt/homebrew/lib/libglm.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libglfw.3.4.dylib  /opt/homebrew/lib/libGLEW.2.2.0.dylib  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  /opt/homebrew/lib/libglm.dylib  -Xlinker -framework -Xlinker OpenGL
   LINK_PATH = -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks  -L/opt/homebrew/lib

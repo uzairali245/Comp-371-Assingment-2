@@ -22,7 +22,8 @@ include_directories(/opt/homebrew/include)
 link_directories(/opt/homebrew/lib)
 
 # Add executable
-add_executable(assignment2 main.cpp)
+add_executable(assignment2
+        A3/main.cpp)
 
 # Link required libraries
 target_link_libraries(assignment2
